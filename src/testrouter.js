@@ -18,3 +18,4 @@ const Router = () => {
 export default Router;
 const FAVORITED_CLASS = 'btn btn-sm btn-primary';
 const NOT_FAVORITED_CLASS = 'btn btn-sm btn-outline-primary';
+const DO_NOT_FAVORITED_CLASS = 'btn btn-sm btn-outline-secondary';
