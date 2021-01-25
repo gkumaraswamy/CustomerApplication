@@ -22,3 +22,4 @@ const DO_NOT_FAVORITED_CLASS = 'btn btn-sm btn-outline-secondary';
 const THIRD_FAVORITED_CLASS = 'btn btn-sm btn-outline-third';
 const FOURTH_FAVORITED_CLASS = 'btn btn-sm btn-outline-fourth';
 const SIXTH_FAVORITED_CLASS = 'btn btn-sm btn-outline-sixth';
+const SEVENTH_FAVORITED_CLASS = 'btn btn-sm btn-outline-seventh';
