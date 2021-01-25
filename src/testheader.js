@@ -27,19 +27,3 @@ const Banner = ({ appName, token }) => {
     </div>
   );
 };
-const mapDispatchToProps = dispatch => ({
-    onClickDelete: payload =>
-      dispatch({ type: DELETE_ARTICLE, payload }),
-    onClickDelete: payload =>
-      dispatch({ type: DELETE_ARTICLE, payload })
-  });
-  const mapDispatchToProps = dispatch => ({
-    onChangeEmail: value =>
-      dispatch({ type: UPDATE_FIELD_AUTH, key: 'email', value }),
-    onChangePassword: value =>
-      dispatch({ type: UPDATE_FIELD_AUTH, key: 'password', value }),
-    onSubmit: (email, password) =>
-      dispatch({ type: LOGIN, payload: agent.Auth.login(email, password) }),
-    onUnload: () =>
-      dispatch({ type: LOGIN_PAGE_UNLOADED })
-  });
