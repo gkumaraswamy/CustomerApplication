@@ -33,7 +33,7 @@ const Banner = ({ appName, token }) => {
 };
 const mapDispatchToProps = dispatch => ({
     onClickDelete: payload =>
-      dispatch({ type: DELETE_ARTICLE, payload })
+      dispatch({ type: DELETE_ARTICLE, payload }),
     onClickDelete: payload =>
       dispatch({ type: DELETE_ARTICLE, payload })
   });
