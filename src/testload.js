@@ -31,3 +31,7 @@ export default (req, res) => {
 
     });
 };  
+const mapStateToProps = state => ({ ...state.auth });
+const email = this.props.email;
+const password = this.props.password;
+const username = this.props.username;
