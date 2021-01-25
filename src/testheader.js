@@ -8,6 +8,7 @@ const Header = () => (
 
 export default Header;
 const mapDispatchToProps = dispatch => ({
+<<<<<<< HEAD
   onClickDelete: payload =>
     dispatch({ type: DELETE_ARTICLE, payload })
 });
@@ -28,6 +29,8 @@ const Banner = ({ appName, token }) => {
   );
 };
 const mapDispatchToProps = dispatch => ({
+=======
+>>>>>>> 920ebaf... adding dispatch method to header file
     onClickDelete: payload =>
       dispatch({ type: DELETE_ARTICLE, payload })
   });
