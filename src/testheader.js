@@ -8,11 +8,7 @@ const Header = () => (
 
 export default Header;
 const mapDispatchToProps = dispatch => ({
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> da127540c296115d34226ba9693c9b634f69b3b4
-  onClickDelete: payload =>
+   onClickDelete: payload =>
     dispatch({ type: DELETE_ARTICLE, payload })
 });
 export default Header;
