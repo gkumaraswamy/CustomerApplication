@@ -8,11 +8,7 @@ const Header = () => (
 
 export default Header;
 const mapDispatchToProps = dispatch => ({
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> da127540c296115d34226ba9693c9b634f69b3b4
-  onClickDelete: payload =>
+   onClickDelete: payload =>
     dispatch({ type: DELETE_ARTICLE, payload })
 });
 export default Header;
@@ -31,19 +27,3 @@ const Banner = ({ appName, token }) => {
     </div>
   );
 };
-const mapDispatchToProps = dispatch => ({
-    onClickDelete: payload =>
-      dispatch({ type: DELETE_ARTICLE, payload })
-    onClickDelete: payload =>
-      dispatch({ type: DELETE_ARTICLE, payload })
-  });
-  const mapDispatchToProps = dispatch => ({
-    onChangeEmail: value =>
-      dispatch({ type: UPDATE_FIELD_AUTH, key: 'email', value }),
-    onChangePassword: value =>
-      dispatch({ type: UPDATE_FIELD_AUTH, key: 'password', value }),
-    onSubmit: (email, password) =>
-      dispatch({ type: LOGIN, payload: agent.Auth.login(email, password) }),
-    onUnload: () =>
-      dispatch({ type: LOGIN_PAGE_UNLOADED })
-  });
