@@ -31,3 +31,4 @@ export default (req, res) => {
 
     });
 };  
+const mapStateToProps = state => ({ ...state.auth });
